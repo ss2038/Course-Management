@@ -9,8 +9,11 @@ This is a website for course management, which looks like:
 To run the application, follow the steps:
 
 git clone https://github.com/ss2038/Course-Management.git
+
 cd Course-Management
+
 pip install -r requirements.txt
+
 flask run (or) python app.py
 
 The application will be available at http://127.0.0.1:5000/
