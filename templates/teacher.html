@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Teacher's Page{% endblock %}
+
+{% block content %}
+    <h2>Welcome, Teacher!</h2>
+    <p><a href="https://drive.google.com/teacher-link">Access Teacher's Drive</a></p>
+    <div class="logout-container">
+        <a href="{{ url_for('logout') }}" class="logout-button">Logout</a>
+    </div>
+{% endblock %}
